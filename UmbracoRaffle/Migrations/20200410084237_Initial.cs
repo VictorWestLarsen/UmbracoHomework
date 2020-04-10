@@ -12,9 +12,10 @@ namespace UmbracoRaffle.Migrations
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Firstname = table.Column<string>(nullable: true),
-                    Lastname = table.Column<string>(nullable: true),
+                    Firstname = table.Column<string>(maxLength: 60, nullable: true),
+                    Lastname = table.Column<string>(maxLength: 60, nullable: true),
                     Email = table.Column<string>(nullable: true),
+                    Age = table.Column<string>(nullable: false),
                     Serialnumber = table.Column<int>(nullable: false)
                 },
                 constraints: table =>

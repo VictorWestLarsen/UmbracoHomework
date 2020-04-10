@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewData["Title"] = "Entered";
+}
+
+<h1>Congratulations you have entered the raffle successfully </h1>
+<p>You can enter the raffle 2 times per serialnumber</p>
+<button class="btn btn-primary" onclick="@("window.location.href='" + @Url.Action("Create", "Raffle") + "'");">Enter again</button>
+<button class="btn btn-primary" onclick="@("window.location.href='" + @Url.Action("Index", "Home") + "'");">Home</button>
+

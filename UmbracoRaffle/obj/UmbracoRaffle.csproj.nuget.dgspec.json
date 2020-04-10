@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\Desktop\\Umbraco\\UmbracoRaffle\\UmbracoRaffle.csproj": {}
+    "C:\\Users\\victo\\Desktop\\UmbracoHomework\\UmbracoHomework\\UmbracoRaffle\\UmbracoRaffle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\Desktop\\Umbraco\\UmbracoRaffle\\UmbracoRaffle.csproj": {
+    "C:\\Users\\victo\\Desktop\\UmbracoHomework\\UmbracoHomework\\UmbracoRaffle\\UmbracoRaffle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\Desktop\\Umbraco\\UmbracoRaffle\\UmbracoRaffle.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\UmbracoHomework\\UmbracoHomework\\UmbracoRaffle\\UmbracoRaffle.csproj",
         "projectName": "UmbracoRaffle",
-        "projectPath": "C:\\Users\\victo\\Desktop\\Umbraco\\UmbracoRaffle\\UmbracoRaffle.csproj",
+        "projectPath": "C:\\Users\\victo\\Desktop\\UmbracoHomework\\UmbracoHomework\\UmbracoRaffle\\UmbracoRaffle.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\Desktop\\Umbraco\\UmbracoRaffle\\obj\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\UmbracoHomework\\UmbracoHomework\\UmbracoRaffle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -76,6 +76,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "PagedList.Mvc": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           },
           "imports": [

@@ -8,7 +8,7 @@ using UmbracoRaffle.Data;
 namespace UmbracoRaffle.Migrations
 {
     [DbContext(typeof(RaffleDbContext))]
-    [Migration("20200409105735_Initial")]
+    [Migration("20200410084237_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,14 +23,20 @@ namespace UmbracoRaffle.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Age")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Email")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Firstname")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(60);
 
                     b.Property<string>("Lastname")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(60);
 
                     b.Property<int>("Serialnumber")
                         .HasColumnType("INTEGER");

@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using PagedList;
 using UmbracoRaffle.Data;
 using UmbracoRaffle.Models;
 
@@ -19,13 +21,35 @@ namespace UmbracoRaffle.Controllers
             _context = context;
         }
 
-        // GET: Raffle
-        public async Task<IActionResult> Index()
+        [Authorize]
+        public ViewResult Index(string searchString, int page = 0)
         {
-            return View(await _context.Raffle.ToListAsync());
+            if (searchString != null)
+            {
+                page = 1;
+            }
+
+            ViewBag.CurrentFilter = searchString;
+            var entries = from e in _context.Raffle
+                          select e;
+            
+            
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                entries = entries.Where(e => e.Lastname.ToLower().Contains(searchString.ToLower())
+                                   || e.Firstname.ToLower().Contains(searchString.ToLower()));
+            }
+
+
+            int NoOfEntries = entries.Count();
+            int pageSize = 10;
+            var data = entries.Skip(page * pageSize).Take(pageSize).ToList();
+            ViewBag.MaxPage = (NoOfEntries / pageSize) - (NoOfEntries % pageSize == 0 ? 1 : 0);
+            ViewBag.Page = page;
+            return View(data);
         }
 
-        // GET: Raffle/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -49,19 +73,6 @@ namespace UmbracoRaffle.Controllers
             return View();
         }
 
-        [HttpGet]
-        public async Task<IActionResult> ValidateSerialAsync(int serial)
-        {
-            if (await _context.Serialnumbers.AnyAsync(s => s.Number == serial))
-            {
-                if (_context.Raffle.Where(r => r.Serialnumber.Equals(serial)).Count() < 2)
-                {
-                    Create();
-                }
-            }
-            ViewBag.Error = "The serial is either invalid, or it has been entered in the raffle 2 times";
-            return Ok();
-        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -76,15 +87,14 @@ namespace UmbracoRaffle.Controllers
                     {
                         _context.Add(raffle);
                         await _context.SaveChangesAsync();
-                        return RedirectToAction(nameof(Index));
+                        return View("Entered");
                     }
                 }
-                ViewBag.Error = "The serial is either invalid, or it has been entered in the raffle 2 times";
-
             }
-            return View("Congrats");
+            ViewBag.Error = "The serial is either invalid, or it has been entered in the raffle 2 times";
+            return View();
         }
-
+        [Authorize]
         // GET: Raffle/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -101,9 +111,7 @@ namespace UmbracoRaffle.Controllers
             return View(raffle);
         }
 
-        // POST: Raffle/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ID,Firstname,Lastname,Email,Number")] Raffle raffle)
@@ -136,7 +144,7 @@ namespace UmbracoRaffle.Controllers
             return View(raffle);
         }
 
-        // GET: Raffle/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -154,7 +162,7 @@ namespace UmbracoRaffle.Controllers
             return View(raffle);
         }
 
-        // POST: Raffle/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
