@@ -1,5 +1,7 @@
 # Umbraco Raffle
 ### Getting started:
+First of all, makes sure you have .NET core 3.1 SDK installed.
+
 Once you have downloaded the project, you can go ahead and run the solution, then you need to make sure you have the following packages:
 - Microsoft.AspNetCore.Identity.EntityFrameworkCore
 - Microsoft.AspNetCore.Indentity.UI
