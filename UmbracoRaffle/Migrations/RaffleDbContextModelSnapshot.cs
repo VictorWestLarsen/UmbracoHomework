@@ -21,9 +21,8 @@ namespace UmbracoRaffle.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Age")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("Age")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Email")
                         .HasColumnType("TEXT");
@@ -36,7 +35,7 @@ namespace UmbracoRaffle.Migrations
                         .HasColumnType("TEXT")
                         .HasMaxLength(60);
 
-                    b.Property<int>("Serialnumber")
+                    b.Property<int>("Number")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("ID");

@@ -187,7 +187,6 @@ C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\n
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\UmbracoRaffle.StaticWebAssets.xml
-C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\app.db
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\UmbracoRaffle.exe
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\UmbracoRaffle.deps.json
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\UmbracoRaffle.runtimeconfig.json
@@ -247,6 +246,8 @@ C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\n
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\PagedList.dll
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\PagedList.Mvc.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
@@ -333,6 +334,9 @@ C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\n
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.csprojAssemblyReference.cache
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.RazorAssemblyInfo.cache
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.RazorAssemblyInfo.cs
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.AssemblyInfoInputs.cache
@@ -348,6 +352,7 @@ C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\n
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\Razor\Views\Raffle\Delete.cshtml.g.cs
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\Razor\Views\Raffle\Details.cshtml.g.cs
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\Razor\Views\Raffle\Edit.cshtml.g.cs
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\Razor\Views\Raffle\Entered.cshtml.g.cs
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\Razor\Views\Raffle\Index.cshtml.g.cs
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -364,9 +369,4 @@ C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\n
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.pdb
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.genruntimeconfig.cache
-C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\Razor\Views\Raffle\Entered.cshtml.g.cs
-C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\PagedList.dll
-C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\PagedList.Mvc.dll
-C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.csproj.CoreCompileInputs.cache
-C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\obj\Debug\netcoreapp3.1\UmbracoRaffle.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\UmbracoRaffle\bin\Debug\netcoreapp3.1\app.db

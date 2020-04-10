@@ -67,7 +67,7 @@ namespace UmbracoRaffle.Controllers
             return View(raffle);
         }
 
-        // GET: Raffle/Create
+        // GET: Entry/Create
         public IActionResult Create()
         {
             return View();
@@ -76,14 +76,14 @@ namespace UmbracoRaffle.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Firstname,Lastname,Email,Age,Serialnumber")] Raffle raffle)
+        public async Task<IActionResult> Create([Bind("ID,Firstname,Lastname,Email,Age,Number")] Raffle raffle)
         {
             if (ModelState.IsValid)
             {
-                // _context.Serialnumbers.Where(s => s.Number.Equals(raffle.Serialnumber)).Any();
-                if (_context.Serialnumbers.Any(s => s.Number == raffle.Serialnumber))
+                // _context.Serialnumbers.Where(s => s.Number.Equals(raffle.Number)).Any();
+                if (_context.Serialnumbers.Any(s => s.Number == raffle.Number && raffle.Age >= 18))
                 {
-                    if (_context.Raffle.Where(r => r.Serialnumber.Equals(raffle.Serialnumber)).Count() < 2)
+                    if (_context.Raffle.Where(r => r.Number.Equals(raffle.Number)).Count() < 2)
                     {
                         _context.Add(raffle);
                         await _context.SaveChangesAsync();
@@ -95,7 +95,7 @@ namespace UmbracoRaffle.Controllers
             return View();
         }
         [Authorize]
-        // GET: Raffle/Edit/5
+        // GET: Entry/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)

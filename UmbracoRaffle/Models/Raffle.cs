@@ -20,6 +20,6 @@ namespace UmbracoRaffle.Models
         [Range(18, 150, ErrorMessage = "You must be 18+ to enter this raffle!")]
         public int Age { get; set; }
         [Range(1,34000)]
-        public int Serialnumber { get; set; }
+        public int Number { get; set; }
     }
 }
