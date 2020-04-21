@@ -11,6 +11,7 @@ Once you have downloaded the project, you can go ahead and run the solution, the
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
 - Microsoft.NET.Test.Sdk
+- PagedList.MVC
 
 You can do this by going to Visual Studio --> Tools --> NuGet Package Manager --> Manage NuGet Packages for solution.
 
