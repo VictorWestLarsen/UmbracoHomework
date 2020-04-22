@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UmbracoRaffle.Data;
 using UmbracoRaffle.Models;
+using Pagination;
+
 
 namespace UmbracoRaffle.Controllers
 {
@@ -35,13 +37,17 @@ namespace UmbracoRaffle.Controllers
             {
                 entries = entries.Where(e => e.Lastname.ToLower().Contains(searchString.ToLower())
                                    || e.Firstname.ToLower().Contains(searchString.ToLower()));
+                return View(entries);
             }
 
 
             int NoOfEntries = entries.Count();
             int pageSize = 10;
             var data = entries.Skip(page * pageSize).Take(pageSize).ToList();
-            ViewBag.MaxPage = (NoOfEntries / pageSize) - (NoOfEntries % pageSize == 0 ? 1 : 0);
+            Paging paging = new Paging();
+
+            ViewBag.MaxPage = paging.Page(NoOfEntries, pageSize);
+                //(NoOfEntries / pageSize) - (NoOfEntries % pageSize == 0 ? 1 : 0);
             ViewBag.Page = page;
             return View(data);
         }

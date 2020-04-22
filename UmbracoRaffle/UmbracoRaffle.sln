@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbracoRaffle", "UmbracoRaf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbracoRaffleTests", "..\AcmeUnitTest\UmbracoRaffleTests.csproj", "{648586BB-0F98-4490-8EA1-126ACA36649D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pagination", "..\Pagination\Pagination.csproj", "{A9711D53-557B-4C13-894E-6A0670ADB900}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{648586BB-0F98-4490-8EA1-126ACA36649D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{648586BB-0F98-4490-8EA1-126ACA36649D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{648586BB-0F98-4490-8EA1-126ACA36649D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9711D53-557B-4C13-894E-6A0670ADB900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9711D53-557B-4C13-894E-6A0670ADB900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9711D53-557B-4C13-894E-6A0670ADB900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9711D53-557B-4C13-894E-6A0670ADB900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

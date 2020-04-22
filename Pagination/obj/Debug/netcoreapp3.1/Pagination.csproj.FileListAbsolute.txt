@@ -1,0 +1,9 @@
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\Pagination\bin\Debug\netcoreapp3.1\Pagination.deps.json
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\Pagination\bin\Debug\netcoreapp3.1\Pagination.dll
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\Pagination\bin\Debug\netcoreapp3.1\Pagination.pdb
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\Pagination\obj\Debug\netcoreapp3.1\Pagination.csprojAssemblyReference.cache
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\Pagination\obj\Debug\netcoreapp3.1\Pagination.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\Pagination\obj\Debug\netcoreapp3.1\Pagination.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\Pagination\obj\Debug\netcoreapp3.1\Pagination.AssemblyInfo.cs
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\Pagination\obj\Debug\netcoreapp3.1\Pagination.dll
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\Pagination\obj\Debug\netcoreapp3.1\Pagination.pdb
