@@ -1,9 +1,11 @@
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\UmbracoRaffle.Views.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\UmbracoRaffle.Views.pdb
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\web.config
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\UmbracoRaffle.StaticWebAssets.xml
+C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\app.db
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\UmbracoRaffle.exe
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\victo\Desktop\UmbracoHomework\UmbracoHomework\AcmeUnitTest\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll

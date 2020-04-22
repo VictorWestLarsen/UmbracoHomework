@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using PagedList;
 using UmbracoRaffle.Data;
 using UmbracoRaffle.Models;
 
@@ -67,21 +64,30 @@ namespace UmbracoRaffle.Controllers
             return View(raffle);
         }
 
+        [HttpPost]
+        public ActionResult ValidateSerial(int Number)
+        {
+            if (_context.Serialnumbers.Any(s => s.Number == Number) && _context.Raffle.Where(r => r.Number == Number).Count() < 2)
+            {
+                return Json(true);
+            }
+            return Json(false);
+        }
+
         // GET: Entry/Create
         public IActionResult Create()
         {
             return View();
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ID,Firstname,Lastname,Email,Age,Number")] Raffle raffle)
         {
+          
             if (ModelState.IsValid)
             {
-                // _context.Serialnumbers.Where(s => s.Number.Equals(raffle.Number)).Any();
-                if (_context.Serialnumbers.Any(s => s.Number == raffle.Number && raffle.Age >= 18))
+                if (_context.Serialnumbers.Any(s => s.Number == raffle.Number))
                 {
                     if (_context.Raffle.Where(r => r.Number.Equals(raffle.Number)).Count() < 2)
                     {
@@ -91,7 +97,6 @@ namespace UmbracoRaffle.Controllers
                     }
                 }
             }
-            ViewBag.Error = "The serial is either invalid, or it has been entered in the raffle 2 times";
             return View();
         }
         [Authorize]

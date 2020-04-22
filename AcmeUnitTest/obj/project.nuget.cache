@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "I+xUSAaUu6+iF0OpCHnMLD2q6eBKwqY6mG5Nk/YXE7PkH9E7uIzxvfp4f6519m7Z4zLDJ6IhEDh3FmS6mz33lg==",
+  "dgSpecHash": "JxYK64bJvpIEbjjWDl5/vPdjG3qeNfxM6dwrDd1TpybketUZQeLB93GuGdpK8qhDuzUQYr/pW42AheGBRJgfgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\victo\\Desktop\\UmbracoHomework\\UmbracoHomework\\AcmeUnitTest\\UmbracoRaffleTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victo\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\jquery.validation\\1.8.0.1\\jquery.validation.1.8.0.1.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.3\\microsoft.aspnetcore.cryptography.keyderivation.3.1.3.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.3\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.3.nupkg.sha512",
@@ -53,6 +55,8 @@
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.extensions.options\\3.1.3\\microsoft.extensions.options.3.1.3.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.jquery.unobtrusive.ajax\\3.2.6\\microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.jquery.unobtrusive.validation\\3.2.11\\microsoft.jquery.unobtrusive.validation.3.2.11.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.net.test.sdk\\16.2.0\\microsoft.net.test.sdk.16.2.0.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
